@@ -1965,7 +1965,42 @@ form select {
     padding-left: 2em;
     padding-right: 2em;
   }
- 
+  /* .col-7.img-cont.pic{
+    border: solid red 4px;
+    height: 400px;
+  } */
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+  .col-7.img-cont.pic{
+    /* border: solid orange 4px; */
+    height: 400px;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1400px) {
+
+  .col-7.img-cont.pic{
+    /* border: solid lightseagreen 4px; */
+    height: 350px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1250px) {
+
+  .col-7.img-cont.pic{
+    /* border: solid lightsalmon 4px; */
+    height: 325px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+
+  .col-7.img-cont.pic{
+    /* border: solid orangered 4px; */
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 595px) {
@@ -1984,6 +2019,21 @@ form select {
   }
   
 }
+@media (min-width: 800px) and (max-width: 900px) {
+
+  .col-7.img-cont.pic{
+    /* border: solid hotpink 4px; */
+    height: 450px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+
+  .col-7.img-cont.pic{
+    /* border: solid turquoise 4px; */
+    height: 425px;
+  }
+}
 
 @media (min-width: 600px) and (max-width: 769px) {
 
@@ -2001,6 +2051,10 @@ form select {
     height: 3em;
     top: 1.5em;
   }
+  .col-7.img-cont.pic{
+    /* border: solid blue 4px; */
+    height: 350px;
+  }
 }
 @media only screen and (max-width: 555px) {
   .dec-el-ban{
@@ -2010,6 +2064,11 @@ form select {
     /* bottom: 5.5em; */
     height: 2em;
     top: 1.5em;
+  }
+
+  .col-7.img-cont.pic{
+    /* border: solid green 4px; */
+    height: 250px;
   }
   /* decorative element contact page */
  /* .dec-el-con{

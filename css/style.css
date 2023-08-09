@@ -543,6 +543,43 @@ img {
   align-items: center;
   font-size: 2.5em;
 }
+/* New About Pages */
+.col-4{
+  /* border: 2px solid teal; */
+  max-height: 25em;
+  /* padding-top: 2em; */
+}
+
+.team-pic{
+  /* border: 2px solid teal; */
+  position:relative;
+  object-fit: cover;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.container-fluid.spa-bt.pd-l-r-2{
+  /* border:2px solid salmon; */
+  justify-content: space-evenly;
+  padding-left: 3em;
+  padding-right: 0;
+}
+
+.abt-team{
+  /* border: 3px solid fuchsia; */
+  /* justify-content: space-around; */
+  
+  padding: 0 0 0 7em;
+ 
+}
+.abt-team-txt {
+  /* border: 2px solid darkmagenta; */
+  padding-left: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  
+}
 
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -1921,6 +1958,9 @@ form select {
     /* border: solid orange 4px; */
     height: 400px;
   }
+  /* .team-pic{
+    height: 345px;
+  } */
 }
 
 @media (min-width: 1250px) and (max-width: 1400px) {
@@ -1929,6 +1969,9 @@ form select {
     /* border: solid lightseagreen 4px; */
     height: 350px;
   }
+  /* .team-pic{
+    height: 325px;
+  } */
 }
 
 @media (min-width: 1100px) and (max-width: 1250px) {
@@ -1937,6 +1980,27 @@ form select {
     /* border: solid lightsalmon 4px; */
     height: 325px;
   }
+  .team-pic{
+    /* height: 300px; */
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .col-7.img-cont.pic{
+    /* border: solid orangered 4px; */
+    height: 300px;
+  }
+  .team-pic{
+    /* height: 200px; */
+    padding: 0 0 0 0;
+  } 
+   .row.abt-team{
+    /* align-items: center; */
+    padding: 0 5em 0 5em;
+  } 
+  /* .abt-team-txt{
+    padding: 0 0 0 0;
+  }   */
 }
 
 @media (min-width: 1000px) and (max-width: 1100px) {
@@ -1945,6 +2009,15 @@ form select {
     /* border: solid orangered 4px; */
     height: 300px;
   }
+  /* .team-pic{
+    height: 300px;
+  }
+  .row.abt-team{
+    align-items: center;
+  }
+  .abt-team-txt{
+    padding: 0 0 0 0;
+  } */
 }
 
 @media only screen and (max-width: 992px) {
@@ -2040,6 +2113,9 @@ form select {
 }
 .res-txt-head{
   text-align: center;
+}
+.abt-team{
+  padding: 0 5em 0 5em;
 }
 /* 
   .btn-grid{

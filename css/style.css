@@ -772,7 +772,6 @@ footer{
 
 
 .address,
-.links,
 .hours,
 .subscribe{
   border-right: .5px solid var(--primary-100);
@@ -2050,7 +2049,7 @@ form select {
   }
 
   .address,
-  .links,
+ 
   .hours,
   .subscribe{
     border-bottom: .5px solid var(--primary-200);

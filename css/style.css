@@ -219,15 +219,196 @@ h3
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.411), rgba(255, 255, 255, 0.356)), url(/images/pexels-nubia-navarro-1517361-Copy.jpg);
   background-size: 100%;
 }
+.bg-special{
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.692), rgba(255, 255, 255, 0.986)), url("../images/Rose-Pattern-3.png");
+  background-size: cover;
+  background-repeat: no-repeat
+}
 
 /* .bg-gap{
   margin-bottom: 2em;
 } */
 
-.bg-special{
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.692), rgba(255, 255, 255, 0.986)), url("../images/Rose-Pattern-3.png");
-  background-size: cover;
-  background-repeat: no-repeat
+/* .fl-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wel-txt{
+  position:relative;
+   z-index: 10;
+  top:200px;
+}
+
+.wel-txt-2{
+  position:relative;
+   z-index: 10;
+  bottom:200px;
+  font-size: 1.5rem;
+}
+.text-position-2{
+  margin: 1em 0 0 1em;
+  font-size: .85em;
+}
+
+
+.dec-el-3{
+ position: relative;
+z-index: 1;
+ top: 60px;
+  
+}
+.px-4{
+  padding: 0 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  bottom: 50px;
+}
+.px-5{
+  padding: 0 2rem;
+  text-align: left;
+  position: relative;
+  z-index: 10;
+  bottom: 50px;
+}
+.btn-g-cont-home{
+  display: flex;
+  justify-content: center;
+  padding: 0 200px 0 0;
+  width: 100%; 
+ 
+}
+.wel-row{
+  justify-content: center;
+} */
+
+/* Default flex column alignment */
+.fl-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Headline positioning (prevent text from going off-screen) */
+.wel-txt {
+  position: relative;
+  z-index: 10;
+  top: 100px; /* Reduced offset */
+  text-align: center;
+}
+
+.wel-txt-2 {
+  position: relative;
+  z-index: 10;
+  bottom: 150px; /* Reduced offset */
+  font-size: 1.7rem;
+  text-align: center;
+  color: var(--primary-600);
+  font-style: italic;
+  margin: 1em 0 0 1em;
+}
+
+/* Text & List Adjustments */
+.text-position-2 {
+  margin: 1em 0 0 1em;
+  font-size: 0.85em;
+}
+
+.px-4, .px-5 {
+  padding: 0 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  bottom: 30px; /* Reduced from 50px */
+}
+
+.px-5 {
+  text-align: left;
+}
+
+/* Decorative Elements */
+.dec-el-3 {
+  position: relative;
+  z-index: 1;
+  top: 30px; /* Reduced from 60px */
+  max-width: 80%; /* Ensures it scales down */
+}
+
+/* Button container */
+.btn-g-cont-home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1em 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1640px) {
+  .wel-txt, .wel-txt-2 {
+    top: 50px;
+    bottom: 50px;
+    font-size: 1.3rem;
+  }
+
+  .px-4, .px-5 {
+    padding: 0 1.5rem;
+    bottom: 20px;
+  }
+
+  .btn-g-cont-home {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .fl-col {
+    width: 100%;
+  }
+
+  .wel-txt, .wel-txt-2 {
+    top: 20px;
+    bottom: 20px;
+    font-size: 1.25rem;
+  }
+
+  .px-4, .px-5 {
+    padding: 0 1rem;
+    bottom: 10px;
+  }
+
+  .dec-el-3 {
+    top: 10px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wel-txt  {
+    font-size: 2.5rem;
+    top: 20px;
+    
+  }
+  .wel-txt-2 {
+    font-size: 2rem;
+ 
+
+  }
+
+  .px-4, .px-5 {
+    padding: 0 0.5rem;
+  }
+
+  .btn-g-cont-home {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .bg-special-two{
@@ -295,7 +476,7 @@ h3
 
 .text-position-new{
   margin: .5em 0 0 0;
-  padding: 0 0 0 0;
+  /* padding: 0 0 0 0; */
   font-size: .85em;
 }
 .text-position-cta{
@@ -498,7 +679,7 @@ img {
 
 
 .pic{
-  height:450px;
+  /* height:450px; */
   position: relative;
 }
 
@@ -542,10 +723,10 @@ img {
 .dec-el{
   /* border: #0f172a solid 1px; */
   position: relative;
-  /* z-index: -1; */
-  /* bottom: 5.5em; */
-  height: 5em;
-  top: 1.5em;
+  z-index: -1;
+  bottom: 20em;
+  /* height: 5em; */
+  /* top: 1.5em; */
 }
 
 
@@ -2211,6 +2392,7 @@ form select {
     justify-content: center;
     margin-top: 1em;
     margin-bottom: 1em;
+    
   }
   /* book banner */
 .bk-banner{

@@ -283,8 +283,21 @@ h3
 
 .text-position{
   margin: 1em 0 0 4em;
+  font-size: .85em;
 }
 
+.dec-el-line{
+  border-top: #23292196 2px solid;
+  width: 75%;
+  position: relative;
+  left: 15rem;
+}
+
+.text-position-new{
+  margin: .5em 0 0 0;
+  padding: 0 0 0 0;
+  font-size: .85em;
+}
 .text-position-cta{
   margin: .5em 0 0 0;
   padding: 0 0 0 0;
@@ -544,8 +557,7 @@ img {
   /* z-index: -1; */
   /* bottom: 5.5em; */
   height: 5em;
-  top: 1.5em;
-  right: 4em
+  top: 1em;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -898,6 +910,14 @@ footer{
   justify-content: space-evenly;
   margin-top: 1em;
   /* height:18em; */
+}
+
+.column-4{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 1em;
 }
 
 .column-head{

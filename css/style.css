@@ -172,6 +172,9 @@ h3
 .spa-t{
  padding-top: 2em;
 }
+.spa-t-1{
+  padding-top: .5em;
+ }
 .spa-t-3{
   padding-top: .5em;
  }
@@ -186,10 +189,7 @@ h3
 .spa-bt{
   padding-bottom: 3em;
  }
- .spa-bt-1{
-  padding-bottom: 1em;
- }
- 
+
  .spa-bt-2{
   padding-bottom: 7.5em;
  }
@@ -283,6 +283,22 @@ h3
 
 .text-position{
   margin: 1em 0 0 4em;
+}
+
+.text-position-cta{
+  margin: .5em 0 0 0;
+  padding: 0 0 0 0;
+  width: 65%;
+  text-align: center;
+  font-size: .85em;
+  font-style: italic;
+}
+.text-position-c{
+  margin: .5em 0 0 0;
+  padding: 0 0 0 0;
+  width: 65%;
+  text-align: center;
+  font-size: .85em;
 }
 
 /* .text-position-2{
@@ -569,6 +585,7 @@ img {
   justify-content: space-evenly;
   padding-left: 3em;
   padding-right: 0;
+  border: aqua 3px solid;
 }
 
 .abt-team{
@@ -685,7 +702,6 @@ button{
   flex-direction: column;
   align-items:center;
   justify-content: space-evenly;
-  height:12.5em;
   padding-top: 2em;
 }
 
@@ -722,6 +738,15 @@ footer{
   margin-bottom: 1em;
 }
 
+.row-foot{
+  display:flex;
+  flex-direction: column;
+  width:100% ;
+  padding-left: 4rem;
+ justify-content: center;
+ align-items: start;
+ 
+}
 .footer-menu{
   display:block;
   font-family: var(--bodyFont);
@@ -738,10 +763,23 @@ footer{
   list-style: none;
   font-size: 1em;
 }
+.footer-txt-ad{
+  text-decoration: none;
+  list-style: none;
+  font-size: .95em;
+  position: relative;
+  bottom: 5rem;
+  
+}
+.logo-f{
+  
+}
+
 .footer-txt-2{
   text-decoration: none;
   list-style: none;
-  font-size: .75em;
+  font-size: .85em;
+   
 }
 
 .footer-txt-3{
@@ -768,10 +806,12 @@ footer{
 }
 .ft-title{
   font-family: var(--headingFont);
+  padding-bottom: .5rem;
 }
 
 
 .address,
+.links,
 .hours,
 .subscribe{
   border-right: .5px solid var(--primary-100);
@@ -784,8 +824,14 @@ footer{
 
 .links{
   text-align: left;
+  /* padding-top: 5rem; */
+  
   /* border-right: var(--primary-200) solid .25px; */
  
+}
+
+.border-test{
+  border:blueviolet 1px solid
 }
 
 .links > h4,
@@ -799,6 +845,7 @@ footer{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* padding-top: 3rem; */
 }
 .address{
   /* border-right: var(--primary-200) solid .25px; */
@@ -835,6 +882,7 @@ footer{
 .ft-cont-c{
   display: flex;
   justify-content: center;
+  padding-bottom: .5rem;
   
 }
 .fa-brands{
@@ -910,7 +958,10 @@ input{
   /* border: #0f172a solid 1px; */
   /* margin-left: 1em; */
 }
-
+.logo-f{
+ 
+  z-index: -10;
+}
 
 /* team images */
 .split.grid{
@@ -1468,6 +1519,13 @@ border-radius: 50%;
       overflow-y: visible;
      
     }
+    .links{
+      text-align: left;
+      padding-top: 0;
+  }
+  .row-foot{
+    padding-left: 0;
+  }
   }
   @media (min-width: 1200px) {
     .navbar-expand-xl {
@@ -2049,7 +2107,7 @@ form select {
   }
 
   .address,
- 
+  .links,  
   .hours,
   .subscribe{
     border-bottom: .5px solid var(--primary-200);
@@ -2058,7 +2116,12 @@ form select {
 
   .links-container{
     justify-content: flex-start;
+    
   }
+  /* .row-foot{
+    justify-content: flex-start;
+    padding-left: 0;
+  } */
   
   .hours,
   .subscribe{
@@ -2218,7 +2281,10 @@ form select {
     top: 1.5em;
   }
 }
-
+.text-position-c{
+    width:100%
+  
+}
 /* @media only screen and (min-width: 1600px) {
   .pic-h{
     height:45em;

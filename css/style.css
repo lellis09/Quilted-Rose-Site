@@ -189,6 +189,9 @@ h3
 .spa-bt{
   padding-bottom: 3em;
  }
+.spa-bt-con{
+  padding-bottom: 1em;
+ }
 
  .spa-bt-2{
   padding-bottom: 7.5em;
@@ -347,9 +350,17 @@ z-index: 1;
 /* Responsive Adjustments */
 @media (max-width: 1640px) {
   .wel-txt, .wel-txt-2 {
-    top: 50px;
-    bottom: 50px;
-    font-size: 1.3rem;
+ 
+    font-size: 2.3rem;
+  }
+  .wel-txt {
+    top: 60px;
+
+  }
+  .wel-txt-2 {
+   
+    bottom: 80px;
+
   }
 
   .px-4, .px-5 {
@@ -375,7 +386,16 @@ z-index: 1;
   .wel-txt, .wel-txt-2 {
     top: 20px;
     bottom: 20px;
-    font-size: 1.25rem;
+    font-size: 2.25rem;
+  }
+  .wel-txt{
+    top: 50px;
+    z-index: 10;
+
+  }
+  .wel-txt-2 {
+   bottom: 50px;
+
   }
 
   .px-4, .px-5 {
@@ -734,10 +754,16 @@ img {
 .dec-el{
   /* border: #0f172a solid 1px; */
   position: relative;
-  z-index: -1;
-  bottom: 20em;
-  /* height: 5em; */
-  /* top: 1.5em; */
+ 
+  
+  height: 5em; 
+  top: 1.5em;
+}
+.text-center-1{
+  font-size: 1.5rem;
+  text-align: center;
+  
+  font-family: var(--bodyFont);
 }
 
 
@@ -1543,6 +1569,11 @@ border-radius: 50%;
     border: solid 1px darkmagenta;
     margin-right: 0;
   }
+  .row-foot{
+    padding-left: none;
+    align-items: start;
+    justify-content: start;
+  }
   /* .navbar-brand{
     justify-content: center;
     border: solid 1px darkmagenta;
@@ -1736,9 +1767,7 @@ border-radius: 50%;
       text-align: left;
       padding-top: 0;
   }
-  .row-foot{
-    padding-left: 0;
-  }
+
   }
   @media (min-width: 1200px) {
     .navbar-expand-xl {
